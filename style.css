@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f9;
+}
+
+.scrapbook-container {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: justify;
+    padding: 20px;
+}
+
+.scrapbook-title {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 3em;
+    color: #ff6f61;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #333;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.scrapbook {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.scrapbook-page {
+    background-color: white;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.scrapbook-page:hover {
+    transform: scale(1.05);
+}
+
+.scrapbook-photo {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #ff6f61;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e55b4b;
+}
